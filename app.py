@@ -31,7 +31,7 @@ def load_data():
 df = load_data()
 
 # ---------------------------------------------------------
-# Recalculate Core Metrics (DO NOT trust provided profits)
+# Recalculate Core Metrics
 # ---------------------------------------------------------
 
 # ---------- COGS ----------
@@ -265,7 +265,7 @@ with tab2:
     st.dataframe(bottom_restaurants, use_container_width=True)
 
 # =========================================================
-# ⭐ FOOTER
+# FOOTER
 # =========================================================
 
 st.markdown("---")
